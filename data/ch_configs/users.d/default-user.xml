@@ -1,0 +1,12 @@
+<clickhouse>
+  <!-- Docs: <https://clickhouse.com/docs/en/operations/settings/settings_users/> -->
+  <users>
+
+    <default>
+      <networks>
+          <ip>::/0</ip>
+      </networks>
+      <password>tanner231</password>
+    </default>
+  </users>
+</clickhouse>
